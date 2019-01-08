@@ -1,0 +1,152 @@
+body
+{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.contenu
+{
+    width: 1020px;
+    background-color: white;
+}
+
+/********************************     NAV               **********************/
+
+nav
+{
+    background-color: #000000;    
+}
+nav>ul
+{
+    background-color: #000000; 
+    display: flex;
+    justify-content: space-around;
+    padding-right: 150px;
+    padding-left: 150px;
+    height: 60px;
+    align-items: center;
+    text-transform: uppercase;
+    margin-bottom: 0;    
+    list-style: none;
+}
+nav>ul>li:nth-child(1)>a
+{    
+    color: #cfa205;
+}
+nav>ul>li>a
+{
+    color:white;
+    list-style-type: none;
+}
+nav>ul>li>a:hover
+{
+    text-decoration: none;
+    color: #7a7a7a;
+    background-color: #cfa205;
+}
+
+h1
+{
+    font-size: 133px;
+    color: #cfa205;
+    text-transform: uppercase;
+    padding-top: 30px
+}
+/*****************    TITILE       ***********************/
+.title
+{
+    height: 320px;
+    background-color: #000000;
+    text-align: center;
+
+}
+.title>h2
+{
+    font-size: 18px;
+    color: #cfa205;
+    text-transform: uppercase;
+    margin: 70px auto 0px auto;
+    font-family: bitter;
+}
+/*************************** ICON ***********************/
+.icon
+{
+    height: 60px;
+    background-color: #e8e8e8;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.icon>i
+{
+    width: 20px;
+    height: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+/************************** CONTENU2 ***************************/
+.contenuDeux
+{
+    text-align: center;
+}
+.text
+{
+    width: 900px;
+    height: 90px;
+    font-size: 18px;
+    color: #7a7a7a;
+    margin:60px auto 60px auto;
+    font-family: Josefin-Sans;
+}
+/**********************************        SECTION ET ARTICLE         **************************/
+.section
+{
+    width: 900px;
+    height: 675px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.article
+{
+    width: 260px;
+}
+.article>img
+{
+    height: 195px;
+    max-width: 100%;
+}
+.article>h3
+{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.article>p
+{
+    font-size: 14px;
+    text-align: left;
+    color: #7a7a7a;
+    font-family: Josefin-Sans;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
